@@ -26,8 +26,7 @@ The Localization Component determines the precise position and orientation of th
 | `/team_elite_ego_pose`     | **Output** to Path and Trajectory planner (Publish)  | `geometry_msgs/msg/pose`     |Publishes the position and orientation of a team elite rigid body |
 
 ## RQT_graph
-file:///home/user/Pictures/rosgraphall.png
-$0
+
 
 ## Installation
 1. Clone the repository:
