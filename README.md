@@ -5,7 +5,7 @@ ROS2 Localization repository(Team Elite).
 Nirsitha (https://git.hs-coburg.de/Nirsitha)
 
 ## Component Description
-The Localization Component determines the precise position and orientation of the autonomous pupil shuttle using OptiTrack motion capture data. It provides real-time pose information to support navigationand path planning, ensuring safe and efficient operation.
+The Localization Component determines the precise position and orientation of the autonomous pupil shuttle using OptiTrack motion capture data. It provides real-time pose information to support navigation and path planning, ensuring safe and efficient operation.
 
 ## Table of Contents
 - [Nodes](#nodes)
@@ -22,11 +22,12 @@ The Localization Component determines the precise position and orientation of th
 
 | **Topic Name**            | **Input/Output**    | **Message Type**             | **Description** |
 |---------------------------|---------------------|------------------------------|-----------------|
-| `/pose_modelcars`         | **Input** (Subscribe) | `geometry_msgs/PoseStamped`  |Publishes the position and orientation data of multiple rigid bodies (e.g., cars). |
-| `/team_elite_ego_pose`     | **Output** (Publish)  | `geometry_msgs/msg/pose`     |Publishes the position and orientation of a team elite rigid body |
+| `/pose_modelcars`         | **Input** from OptiTrack (Subscribe) | `geometry_msgs/PoseStamped`  |Publishes the position and orientation data of multiple rigid bodies (e.g., cars). |
+| `/team_elite_ego_pose`     | **Output** to Path and Trajectory planner (Publish)  | `geometry_msgs/msg/pose`     |Publishes the position and orientation of a team elite rigid body |
 
 ## RQT_graph
-![rosgraphall](https://github.com/user-attachments/assets/ec209f53-eff4-4038-85ee-050bdebcffc5)
+file:///home/user/Pictures/rosgraphall.png
+$0
 
 ## Installation
 1. Clone the repository:
