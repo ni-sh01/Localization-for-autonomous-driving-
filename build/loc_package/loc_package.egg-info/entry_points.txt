@@ -1,0 +1,3 @@
+[console_scripts]
+loc_node = loc_package.loc_node:main
+

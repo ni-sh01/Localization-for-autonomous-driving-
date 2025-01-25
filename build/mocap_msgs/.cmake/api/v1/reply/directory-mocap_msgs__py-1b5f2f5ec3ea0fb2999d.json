@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mocap_msgs__py",
+		"source" : "/home/user/ros_ws/build/mocap_msgs/mocap_msgs__py"
+	}
+}

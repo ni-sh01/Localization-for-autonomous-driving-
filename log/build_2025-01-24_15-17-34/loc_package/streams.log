@@ -1,0 +1,38 @@
+[1.673s] Invoking command in '/home/user/ros_ws/src/loc_package': PYTHONPATH=/home/user/ros_ws/build/loc_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros_ws/install/loc_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/loc_package build --build-base /home/user/ros_ws/build/loc_package/build install --record /home/user/ros_ws/build/loc_package/install.log --single-version-externally-managed install_data
+[2.429s] running egg_info
+[2.433s] creating ../../build/loc_package/loc_package.egg-info
+[2.434s] writing ../../build/loc_package/loc_package.egg-info/PKG-INFO
+[2.434s] writing dependency_links to ../../build/loc_package/loc_package.egg-info/dependency_links.txt
+[2.434s] writing entry points to ../../build/loc_package/loc_package.egg-info/entry_points.txt
+[2.434s] writing requirements to ../../build/loc_package/loc_package.egg-info/requires.txt
+[2.434s] writing top-level names to ../../build/loc_package/loc_package.egg-info/top_level.txt
+[2.436s] writing manifest file '../../build/loc_package/loc_package.egg-info/SOURCES.txt'
+[2.438s] reading manifest file '../../build/loc_package/loc_package.egg-info/SOURCES.txt'
+[2.438s] adding license file 'LICENSE'
+[2.440s] writing manifest file '../../build/loc_package/loc_package.egg-info/SOURCES.txt'
+[2.441s] running build
+[2.441s] running build_py
+[2.441s] creating /home/user/ros_ws/build/loc_package/build
+[2.442s] creating /home/user/ros_ws/build/loc_package/build/lib
+[2.442s] creating /home/user/ros_ws/build/loc_package/build/lib/loc_package
+[2.442s] copying loc_package/loc_node.py -> /home/user/ros_ws/build/loc_package/build/lib/loc_package
+[2.442s] copying loc_package/__init__.py -> /home/user/ros_ws/build/loc_package/build/lib/loc_package
+[2.443s] running install
+[2.445s] running install_lib
+[2.445s] creating /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package
+[2.445s] copying /home/user/ros_ws/build/loc_package/build/lib/loc_package/loc_node.py -> /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package
+[2.446s] copying /home/user/ros_ws/build/loc_package/build/lib/loc_package/__init__.py -> /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package
+[2.448s] byte-compiling /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package/loc_node.py to loc_node.cpython-310.pyc
+[2.449s] byte-compiling /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package/__init__.py to __init__.cpython-310.pyc
+[2.449s] running install_data
+[2.449s] creating /home/user/ros_ws/install/loc_package/share/ament_index
+[2.449s] creating /home/user/ros_ws/install/loc_package/share/ament_index/resource_index
+[2.450s] creating /home/user/ros_ws/install/loc_package/share/ament_index/resource_index/packages
+[2.451s] copying resource/loc_package -> /home/user/ros_ws/install/loc_package/share/ament_index/resource_index/packages
+[2.454s] copying package.xml -> /home/user/ros_ws/install/loc_package/share/loc_package
+[2.455s] running install_egg_info
+[2.455s] Copying ../../build/loc_package/loc_package.egg-info to /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package-0.0.0-py3.10.egg-info
+[2.456s] running install_scripts
+[2.525s] Installing loc_node script to /home/user/ros_ws/install/loc_package/lib/loc_package
+[2.527s] writing list of installed files to '/home/user/ros_ws/build/loc_package/install.log'
+[2.590s] Invoked command in '/home/user/ros_ws/src/loc_package' returned '0': PYTHONPATH=/home/user/ros_ws/build/loc_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros_ws/install/loc_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/loc_package build --build-base /home/user/ros_ws/build/loc_package/build install --record /home/user/ros_ws/build/loc_package/install.log --single-version-externally-managed install_data

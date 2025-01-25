@@ -1,0 +1,10 @@
+{
+  "package_name": "mocap_msgs",
+  "non_idl_tuples": [
+    "/home/user/ros_ws/src/mocap_msgs:msg/Marker.msg",
+    "/home/user/ros_ws/src/mocap_msgs:msg/Markers.msg",
+    "/home/user/ros_ws/src/mocap_msgs:msg/ImusInfo.msg",
+    "/home/user/ros_ws/src/mocap_msgs:msg/RigidBody.msg",
+    "/home/user/ros_ws/src/mocap_msgs:msg/RigidBodies.msg"
+  ]
+}

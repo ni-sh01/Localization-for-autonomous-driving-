@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/loc_package/loc_package.egg-info
+writing ../../build/loc_package/loc_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/loc_package/loc_package.egg-info/dependency_links.txt
+writing entry points to ../../build/loc_package/loc_package.egg-info/entry_points.txt
+writing requirements to ../../build/loc_package/loc_package.egg-info/requires.txt
+writing top-level names to ../../build/loc_package/loc_package.egg-info/top_level.txt
+writing manifest file '../../build/loc_package/loc_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/loc_package/loc_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/loc_package/loc_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/ros_ws/build/loc_package/build
+creating /home/user/ros_ws/build/loc_package/build/lib
+creating /home/user/ros_ws/build/loc_package/build/lib/loc_package
+copying loc_package/loc_node.py -> /home/user/ros_ws/build/loc_package/build/lib/loc_package
+copying loc_package/__init__.py -> /home/user/ros_ws/build/loc_package/build/lib/loc_package
+running install
+running install_lib
+creating /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package
+copying /home/user/ros_ws/build/loc_package/build/lib/loc_package/loc_node.py -> /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package
+copying /home/user/ros_ws/build/loc_package/build/lib/loc_package/__init__.py -> /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package
+byte-compiling /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package/loc_node.py to loc_node.cpython-310.pyc
+byte-compiling /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/user/ros_ws/install/loc_package/share/ament_index
+creating /home/user/ros_ws/install/loc_package/share/ament_index/resource_index
+creating /home/user/ros_ws/install/loc_package/share/ament_index/resource_index/packages
+copying resource/loc_package -> /home/user/ros_ws/install/loc_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros_ws/install/loc_package/share/loc_package
+running install_egg_info
+Copying ../../build/loc_package/loc_package.egg-info to /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing loc_node script to /home/user/ros_ws/install/loc_package/lib/loc_package
+writing list of installed files to '/home/user/ros_ws/build/loc_package/install.log'

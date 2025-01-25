@@ -1,0 +1,624 @@
+[0.000000] (-) TimerEvent: {}
+[0.000229] (loc_package) JobQueued: {'identifier': 'loc_package', 'dependencies': OrderedDict()}
+[0.000320] (mocap_msgs) JobQueued: {'identifier': 'mocap_msgs', 'dependencies': OrderedDict()}
+[0.001581] (loc_package) JobStarted: {'identifier': 'loc_package'}
+[0.036390] (mocap_msgs) JobStarted: {'identifier': 'mocap_msgs'}
+[0.101318] (-) TimerEvent: {}
+[0.201777] (-) TimerEvent: {}
+[0.302321] (-) TimerEvent: {}
+[0.403856] (-) TimerEvent: {}
+[0.504313] (-) TimerEvent: {}
+[0.605511] (-) TimerEvent: {}
+[0.608916] (mocap_msgs) JobProgress: {'identifier': 'mocap_msgs', 'progress': 'cmake'}
+[0.609895] (mocap_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros_ws/src/mocap_msgs', '-DCMAKE_INSTALL_PREFIX=/home/user/ros_ws/install/mocap_msgs'], 'cwd': '/home/user/ros_ws/build/mocap_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'user'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1606'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1424,unix/ubuntu:/tmp/.ICE-unix/1424'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4da6ebe_d560_4c87_a9d2_7b95797cb3a7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9LE202'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros_ws/build/mocap_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.706409] (-) TimerEvent: {}
+[0.809612] (-) TimerEvent: {}
+[0.910128] (-) TimerEvent: {}
+[0.973945] (mocap_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.010305] (-) TimerEvent: {}
+[1.110826] (-) TimerEvent: {}
+[1.211789] (-) TimerEvent: {}
+[1.250268] (mocap_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.290784] (mocap_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.313820] (-) TimerEvent: {}
+[1.414316] (-) TimerEvent: {}
+[1.469161] (mocap_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.497402] (mocap_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.499171] (mocap_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.501688] (mocap_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.514819] (mocap_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.515075] (-) TimerEvent: {}
+[1.615814] (-) TimerEvent: {}
+[1.674080] (loc_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/loc_package', 'build', '--build-base', '/home/user/ros_ws/build/loc_package/build', 'install', '--record', '/home/user/ros_ws/build/loc_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros_ws/src/loc_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'user', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '1606', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1424,unix/ubuntu:/tmp/.ICE-unix/1424', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a4da6ebe_d560_4c87_a9d2_7b95797cb3a7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9LE202', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.139', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/ros_ws/build/loc_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ros_ws/build/loc_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros_ws/install/loc_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.717834] (-) TimerEvent: {}
+[1.738099] (mocap_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.780423] (mocap_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.782250] (mocap_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.784917] (mocap_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.793888] (mocap_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.817950] (-) TimerEvent: {}
+[1.918874] (-) TimerEvent: {}
+[2.022749] (-) TimerEvent: {}
+[2.123280] (-) TimerEvent: {}
+[2.224833] (-) TimerEvent: {}
+[2.234696] (mocap_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.325339] (-) TimerEvent: {}
+[2.425926] (-) TimerEvent: {}
+[2.430517] (loc_package) StdoutLine: {'line': b'running egg_info\n'}
+[2.434615] (loc_package) StdoutLine: {'line': b'creating ../../build/loc_package/loc_package.egg-info\n'}
+[2.435194] (loc_package) StdoutLine: {'line': b'writing ../../build/loc_package/loc_package.egg-info/PKG-INFO\n'}
+[2.435389] (loc_package) StdoutLine: {'line': b'writing dependency_links to ../../build/loc_package/loc_package.egg-info/dependency_links.txt\n'}
+[2.435572] (loc_package) StdoutLine: {'line': b'writing entry points to ../../build/loc_package/loc_package.egg-info/entry_points.txt\n'}
+[2.435833] (loc_package) StdoutLine: {'line': b'writing requirements to ../../build/loc_package/loc_package.egg-info/requires.txt\n'}
+[2.435966] (loc_package) StdoutLine: {'line': b'writing top-level names to ../../build/loc_package/loc_package.egg-info/top_level.txt\n'}
+[2.437275] (loc_package) StdoutLine: {'line': b"writing manifest file '../../build/loc_package/loc_package.egg-info/SOURCES.txt'\n"}
+[2.439566] (loc_package) StdoutLine: {'line': b"reading manifest file '../../build/loc_package/loc_package.egg-info/SOURCES.txt'\n"}
+[2.439964] (loc_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.441399] (loc_package) StdoutLine: {'line': b"writing manifest file '../../build/loc_package/loc_package.egg-info/SOURCES.txt'\n"}
+[2.442149] (loc_package) StdoutLine: {'line': b'running build\n'}
+[2.442372] (loc_package) StdoutLine: {'line': b'running build_py\n'}
+[2.442689] (loc_package) StdoutLine: {'line': b'creating /home/user/ros_ws/build/loc_package/build\n'}
+[2.443160] (loc_package) StdoutLine: {'line': b'creating /home/user/ros_ws/build/loc_package/build/lib\n'}
+[2.443310] (loc_package) StdoutLine: {'line': b'creating /home/user/ros_ws/build/loc_package/build/lib/loc_package\n'}
+[2.443498] (loc_package) StdoutLine: {'line': b'copying loc_package/loc_node.py -> /home/user/ros_ws/build/loc_package/build/lib/loc_package\n'}
+[2.443768] (loc_package) StdoutLine: {'line': b'copying loc_package/__init__.py -> /home/user/ros_ws/build/loc_package/build/lib/loc_package\n'}
+[2.444140] (loc_package) StdoutLine: {'line': b'running install\n'}
+[2.446395] (loc_package) StdoutLine: {'line': b'running install_lib\n'}
+[2.446697] (loc_package) StdoutLine: {'line': b'creating /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package\n'}
+[2.446953] (loc_package) StdoutLine: {'line': b'copying /home/user/ros_ws/build/loc_package/build/lib/loc_package/loc_node.py -> /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package\n'}
+[2.447451] (loc_package) StdoutLine: {'line': b'copying /home/user/ros_ws/build/loc_package/build/lib/loc_package/__init__.py -> /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package\n'}
+[2.449665] (loc_package) StdoutLine: {'line': b'byte-compiling /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package/loc_node.py to loc_node.cpython-310.pyc\n'}
+[2.450090] (loc_package) StdoutLine: {'line': b'byte-compiling /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package/__init__.py to __init__.cpython-310.pyc\n'}
+[2.450479] (loc_package) StdoutLine: {'line': b'running install_data\n'}
+[2.450674] (loc_package) StdoutLine: {'line': b'creating /home/user/ros_ws/install/loc_package/share/ament_index\n'}
+[2.450948] (loc_package) StdoutLine: {'line': b'creating /home/user/ros_ws/install/loc_package/share/ament_index/resource_index\n'}
+[2.451123] (loc_package) StdoutLine: {'line': b'creating /home/user/ros_ws/install/loc_package/share/ament_index/resource_index/packages\n'}
+[2.451986] (loc_package) StdoutLine: {'line': b'copying resource/loc_package -> /home/user/ros_ws/install/loc_package/share/ament_index/resource_index/packages\n'}
+[2.452291] (loc_package) StdoutLine: {'line': b'copying package.xml -> /home/user/ros_ws/install/loc_package/share/loc_package\n'}
+[2.455988] (loc_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.456415] (loc_package) StdoutLine: {'line': b'Copying ../../build/loc_package/loc_package.egg-info to /home/user/ros_ws/install/loc_package/lib/python3.10/site-packages/loc_package-0.0.0-py3.10.egg-info\n'}
+[2.457433] (loc_package) StdoutLine: {'line': b'running install_scripts\n'}
+[2.526624] (loc_package) StdoutLine: {'line': b'Installing loc_node script to /home/user/ros_ws/install/loc_package/lib/loc_package\n'}
+[2.527298] (-) TimerEvent: {}
+[2.528604] (loc_package) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros_ws/build/loc_package/install.log'\n"}
+[2.529001] (mocap_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.540289] (mocap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.563906] (mocap_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.591147] (loc_package) CommandEnded: {'returncode': 0}
+[2.618124] (loc_package) JobEnded: {'identifier': 'loc_package', 'rc': 0}
+[2.628129] (-) TimerEvent: {}
+[2.724680] (mocap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.728440] (-) TimerEvent: {}
+[2.829781] (-) TimerEvent: {}
+[2.867115] (mocap_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.929921] (-) TimerEvent: {}
+[2.930419] (mocap_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.996190] (mocap_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.030662] (-) TimerEvent: {}
+[3.131313] (-) TimerEvent: {}
+[3.231762] (-) TimerEvent: {}
+[3.333902] (-) TimerEvent: {}
+[3.434750] (-) TimerEvent: {}
+[3.535828] (-) TimerEvent: {}
+[3.636717] (-) TimerEvent: {}
+[3.737109] (-) TimerEvent: {}
+[3.738040] (mocap_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.837789] (-) TimerEvent: {}
+[3.938312] (-) TimerEvent: {}
+[4.038930] (-) TimerEvent: {}
+[4.139361] (-) TimerEvent: {}
+[4.239894] (-) TimerEvent: {}
+[4.309518] (mocap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.340385] (-) TimerEvent: {}
+[4.440958] (-) TimerEvent: {}
+[4.541446] (-) TimerEvent: {}
+[4.642972] (-) TimerEvent: {}
+[4.745354] (-) TimerEvent: {}
+[4.845858] (-) TimerEvent: {}
+[4.947434] (-) TimerEvent: {}
+[5.013826] (mocap_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.047590] (-) TimerEvent: {}
+[5.057202] (mocap_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.060386] (mocap_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.120055] (mocap_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.120414] (mocap_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.120569] (mocap_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.120785] (mocap_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.148346] (-) TimerEvent: {}
+[5.159710] (mocap_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.248957] (-) TimerEvent: {}
+[5.340861] (mocap_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.349503] (-) TimerEvent: {}
+[5.428842] (mocap_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[5.449664] (-) TimerEvent: {}
+[5.455453] (mocap_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros_ws/build/mocap_msgs\n'}
+[5.468415] (mocap_msgs) CommandEnded: {'returncode': 0}
+[5.469080] (mocap_msgs) JobProgress: {'identifier': 'mocap_msgs', 'progress': 'build'}
+[5.469129] (mocap_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros_ws/build/mocap_msgs', '--', '-j2', '-l2'], 'cwd': '/home/user/ros_ws/build/mocap_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'user'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1606'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1424,unix/ubuntu:/tmp/.ICE-unix/1424'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4da6ebe_d560_4c87_a9d2_7b95797cb3a7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9LE202'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros_ws/build/mocap_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.537870] (mocap_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.551588] (-) TimerEvent: {}
+[5.568479] (mocap_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.652093] (-) TimerEvent: {}
+[5.752582] (-) TimerEvent: {}
+[5.853068] (-) TimerEvent: {}
+[5.953592] (-) TimerEvent: {}
+[6.055815] (-) TimerEvent: {}
+[6.156611] (-) TimerEvent: {}
+[6.257175] (-) TimerEvent: {}
+[6.357733] (-) TimerEvent: {}
+[6.458326] (-) TimerEvent: {}
+[6.558791] (-) TimerEvent: {}
+[6.660238] (-) TimerEvent: {}
+[6.760812] (-) TimerEvent: {}
+[6.861343] (-) TimerEvent: {}
+[6.962195] (-) TimerEvent: {}
+[7.064175] (-) TimerEvent: {}
+[7.085531] (mocap_msgs) StdoutLine: {'line': b'[  3%] Built target mocap_msgs__cpp\n'}
+[7.138165] (mocap_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_mocap_msgs\n'}
+[7.153671] (mocap_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.161944] (mocap_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/marker__functions.c.o\x1b[0m\n'}
+[7.164881] (-) TimerEvent: {}
+[7.265389] (-) TimerEvent: {}
+[7.352422] (mocap_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/markers__functions.c.o\x1b[0m\n'}
+[7.367279] (-) TimerEvent: {}
+[7.449895] (mocap_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/imus_info__functions.c.o\x1b[0m\n'}
+[7.467458] (-) TimerEvent: {}
+[7.536436] (mocap_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/rigid_body__functions.c.o\x1b[0m\n'}
+[7.567766] (-) TimerEvent: {}
+[7.626662] (mocap_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/rigid_bodies__functions.c.o\x1b[0m\n'}
+[7.667839] (-) TimerEvent: {}
+[7.712174] (mocap_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmocap_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.768088] (-) TimerEvent: {}
+[7.785864] (mocap_msgs) StdoutLine: {'line': b'[ 14%] Built target mocap_msgs__rosidl_generator_c\n'}
+[7.801887] (mocap_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.870542] (-) TimerEvent: {}
+[7.971075] (-) TimerEvent: {}
+[8.055432] (mocap_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[8.071611] (-) TimerEvent: {}
+[8.172190] (-) TimerEvent: {}
+[8.272747] (-) TimerEvent: {}
+[8.374504] (-) TimerEvent: {}
+[8.475664] (-) TimerEvent: {}
+[8.576274] (-) TimerEvent: {}
+[8.676728] (-) TimerEvent: {}
+[8.697023] (mocap_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/markers__type_support.cpp.o\x1b[0m\n'}
+[8.777265] (-) TimerEvent: {}
+[8.877864] (-) TimerEvent: {}
+[8.978236] (-) TimerEvent: {}
+[9.058080] (mocap_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o\x1b[0m\n'}
+[9.079856] (-) TimerEvent: {}
+[9.180419] (-) TimerEvent: {}
+[9.241960] (mocap_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/imus_info__type_support.cpp.o\x1b[0m\n'}
+[9.280958] (-) TimerEvent: {}
+[9.381469] (-) TimerEvent: {}
+[9.482751] (-) TimerEvent: {}
+[9.583475] (-) TimerEvent: {}
+[9.686087] (-) TimerEvent: {}
+[9.786563] (-) TimerEvent: {}
+[9.824988] (mocap_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[9.886711] (-) TimerEvent: {}
+[9.920813] (mocap_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/markers__type_support.cpp.o\x1b[0m\n'}
+[9.987042] (-) TimerEvent: {}
+[10.089493] (-) TimerEvent: {}
+[10.189859] (-) TimerEvent: {}
+[10.290556] (-) TimerEvent: {}
+[10.344639] (mocap_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/rigid_bodies__type_support.cpp.o\x1b[0m\n'}
+[10.390715] (-) TimerEvent: {}
+[10.492631] (-) TimerEvent: {}
+[10.593148] (-) TimerEvent: {}
+[10.694732] (-) TimerEvent: {}
+[10.797175] (-) TimerEvent: {}
+[10.871201] (mocap_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/imus_info__type_support.cpp.o\x1b[0m\n'}
+[10.897706] (-) TimerEvent: {}
+[10.949327] (mocap_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.997860] (-) TimerEvent: {}
+[11.039429] (mocap_msgs) StdoutLine: {'line': b'[ 30%] Built target mocap_msgs__rosidl_typesupport_cpp\n'}
+[11.057288] (mocap_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.098092] (-) TimerEvent: {}
+[11.198602] (-) TimerEvent: {}
+[11.299067] (-) TimerEvent: {}
+[11.399435] (-) TimerEvent: {}
+[11.499889] (-) TimerEvent: {}
+[11.600424] (-) TimerEvent: {}
+[11.700808] (-) TimerEvent: {}
+[11.781559] (mocap_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[11.801503] (-) TimerEvent: {}
+[11.901798] (-) TimerEvent: {}
+[12.002579] (-) TimerEvent: {}
+[12.103094] (-) TimerEvent: {}
+[12.203666] (-) TimerEvent: {}
+[12.232871] (mocap_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/marker__type_support.cpp.o\x1b[0m\n'}
+[12.303862] (-) TimerEvent: {}
+[12.404720] (-) TimerEvent: {}
+[12.505265] (-) TimerEvent: {}
+[12.605792] (-) TimerEvent: {}
+[12.706083] (mocap_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/rigid_bodies__type_support.cpp.o\x1b[0m\n'}
+[12.706423] (-) TimerEvent: {}
+[12.806816] (-) TimerEvent: {}
+[12.907352] (-) TimerEvent: {}
+[13.007846] (-) TimerEvent: {}
+[13.047921] (mocap_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/markers__type_support.cpp.o\x1b[0m\n'}
+[13.108419] (-) TimerEvent: {}
+[13.210960] (-) TimerEvent: {}
+[13.311461] (-) TimerEvent: {}
+[13.411909] (-) TimerEvent: {}
+[13.512531] (-) TimerEvent: {}
+[13.613012] (-) TimerEvent: {}
+[13.639082] (mocap_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.713830] (-) TimerEvent: {}
+[13.816068] (-) TimerEvent: {}
+[13.839999] (mocap_msgs) StdoutLine: {'line': b'[ 39%] Built target mocap_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[13.916575] (-) TimerEvent: {}
+[13.972520] (mocap_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/imus_info__type_support.cpp.o\x1b[0m\n'}
+[14.016752] (-) TimerEvent: {}
+[14.117616] (-) TimerEvent: {}
+[14.219122] (-) TimerEvent: {}
+[14.319678] (-) TimerEvent: {}
+[14.399165] (mocap_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[14.401452] (mocap_msgs) StdoutLine: {'line': b'creating mocap_msgs.egg-info\n'}
+[14.402276] (mocap_msgs) StdoutLine: {'line': b'writing mocap_msgs.egg-info/PKG-INFO\n'}
+[14.402875] (mocap_msgs) StdoutLine: {'line': b'writing dependency_links to mocap_msgs.egg-info/dependency_links.txt\n'}
+[14.403413] (mocap_msgs) StdoutLine: {'line': b'writing top-level names to mocap_msgs.egg-info/top_level.txt\n'}
+[14.404261] (mocap_msgs) StdoutLine: {'line': b"writing manifest file 'mocap_msgs.egg-info/SOURCES.txt'\n"}
+[14.410541] (mocap_msgs) StdoutLine: {'line': b"reading manifest file 'mocap_msgs.egg-info/SOURCES.txt'\n"}
+[14.412669] (mocap_msgs) StdoutLine: {'line': b"writing manifest file 'mocap_msgs.egg-info/SOURCES.txt'\n"}
+[14.421191] (-) TimerEvent: {}
+[14.481893] (mocap_msgs) StdoutLine: {'line': b'[ 41%] Built target ament_cmake_python_build_mocap_msgs_egg\n'}
+[14.496105] (mocap_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[14.521351] (-) TimerEvent: {}
+[14.622232] (-) TimerEvent: {}
+[14.722855] (-) TimerEvent: {}
+[14.824331] (-) TimerEvent: {}
+[14.831824] (mocap_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/rigid_bodies__type_support.cpp.o\x1b[0m\n'}
+[14.924801] (-) TimerEvent: {}
+[15.026317] (-) TimerEvent: {}
+[15.126842] (-) TimerEvent: {}
+[15.230333] (-) TimerEvent: {}
+[15.330836] (-) TimerEvent: {}
+[15.420577] (mocap_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.431462] (-) TimerEvent: {}
+[15.532065] (-) TimerEvent: {}
+[15.633483] (-) TimerEvent: {}
+[15.734726] (-) TimerEvent: {}
+[15.835467] (-) TimerEvent: {}
+[15.855773] (mocap_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.935615] (-) TimerEvent: {}
+[16.025851] (mocap_msgs) StdoutLine: {'line': b'[ 47%] Built target mocap_msgs__rosidl_typesupport_introspection_cpp\n'}
+[16.035739] (-) TimerEvent: {}
+[16.043115] (mocap_msgs) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[16.136797] (-) TimerEvent: {}
+[16.237617] (-) TimerEvent: {}
+[16.339817] (-) TimerEvent: {}
+[16.440651] (-) TimerEvent: {}
+[16.541197] (-) TimerEvent: {}
+[16.641749] (-) TimerEvent: {}
+[16.702384] (mocap_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/marker__type_support_c.cpp.o\x1b[0m\n'}
+[16.742807] (-) TimerEvent: {}
+[16.843743] (-) TimerEvent: {}
+[16.944303] (-) TimerEvent: {}
+[17.046805] (-) TimerEvent: {}
+[17.147304] (-) TimerEvent: {}
+[17.248030] (-) TimerEvent: {}
+[17.265921] (mocap_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/marker__type_support.c.o\x1b[0m\n'}
+[17.339842] (mocap_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/markers__type_support.c.o\x1b[0m\n'}
+[17.348168] (-) TimerEvent: {}
+[17.374594] (mocap_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/markers__type_support_c.cpp.o\x1b[0m\n'}
+[17.419825] (mocap_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/imus_info__type_support.c.o\x1b[0m\n'}
+[17.448332] (-) TimerEvent: {}
+[17.471129] (mocap_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/rigid_body__type_support.c.o\x1b[0m\n'}
+[17.550557] (-) TimerEvent: {}
+[17.550943] (mocap_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/rigid_bodies__type_support.c.o\x1b[0m\n'}
+[17.624846] (mocap_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libmocap_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[17.650869] (-) TimerEvent: {}
+[17.696548] (mocap_msgs) StdoutLine: {'line': b'[ 61%] Built target mocap_msgs__rosidl_typesupport_introspection_c\n'}
+[17.717854] (mocap_msgs) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.751001] (-) TimerEvent: {}
+[17.851360] (-) TimerEvent: {}
+[17.951805] (-) TimerEvent: {}
+[18.052219] (-) TimerEvent: {}
+[18.058912] (mocap_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/imus_info__type_support_c.cpp.o\x1b[0m\n'}
+[18.154796] (-) TimerEvent: {}
+[18.255147] (-) TimerEvent: {}
+[18.355595] (-) TimerEvent: {}
+[18.456126] (-) TimerEvent: {}
+[18.556514] (-) TimerEvent: {}
+[18.642843] (mocap_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[18.656694] (-) TimerEvent: {}
+[18.703900] (mocap_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/markers__type_support.cpp.o\x1b[0m\n'}
+[18.729846] (mocap_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/rigid_body__type_support_c.cpp.o\x1b[0m\n'}
+[18.757825] (-) TimerEvent: {}
+[18.764823] (mocap_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/imus_info__type_support.cpp.o\x1b[0m\n'}
+[18.821504] (mocap_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/rigid_body__type_support.cpp.o\x1b[0m\n'}
+[18.858268] (-) TimerEvent: {}
+[18.868855] (mocap_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/rigid_bodies__type_support.cpp.o\x1b[0m\n'}
+[18.922239] (mocap_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.958814] (-) TimerEvent: {}
+[19.014101] (mocap_msgs) StdoutLine: {'line': b'[ 76%] Built target mocap_msgs__rosidl_typesupport_c\n'}
+[19.027803] (mocap_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/rigid_bodies__type_support_c.cpp.o\x1b[0m\n'}
+[19.059337] (-) TimerEvent: {}
+[19.159832] (-) TimerEvent: {}
+[19.262358] (-) TimerEvent: {}
+[19.362819] (-) TimerEvent: {}
+[19.464064] (-) TimerEvent: {}
+[19.566091] (-) TimerEvent: {}
+[19.665565] (mocap_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.666767] (-) TimerEvent: {}
+[19.767743] (-) TimerEvent: {}
+[19.833993] (mocap_msgs) StdoutLine: {'line': b'[ 79%] Built target mocap_msgs__rosidl_typesupport_fastrtps_c\n'}
+[19.865171] (mocap_msgs) StdoutLine: {'line': b'[ 79%] Built target mocap_msgs\n'}
+[19.867917] (-) TimerEvent: {}
+[19.896940] (mocap_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.968917] (-) TimerEvent: {}
+[20.069340] (-) TimerEvent: {}
+[20.170103] (-) TimerEvent: {}
+[20.272453] (-) TimerEvent: {}
+[20.373170] (-) TimerEvent: {}
+[20.475046] (-) TimerEvent: {}
+[20.577470] (-) TimerEvent: {}
+[20.680353] (-) TimerEvent: {}
+[20.781936] (-) TimerEvent: {}
+[20.883418] (-) TimerEvent: {}
+[20.984839] (-) TimerEvent: {}
+[21.088473] (-) TimerEvent: {}
+[21.188868] (-) TimerEvent: {}
+[21.292455] (-) TimerEvent: {}
+[21.393314] (-) TimerEvent: {}
+[21.495087] (-) TimerEvent: {}
+[21.595421] (-) TimerEvent: {}
+[21.678308] (mocap_msgs) StdoutLine: {'line': b'[ 80%] Built target mocap_msgs__py\n'}
+[21.695532] (-) TimerEvent: {}
+[21.707908] (mocap_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_marker_s.c.o\x1b[0m\n'}
+[21.708129] (mocap_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_markers_s.c.o\x1b[0m\n'}
+[21.795737] (-) TimerEvent: {}
+[21.898304] (-) TimerEvent: {}
+[21.999823] (-) TimerEvent: {}
+[22.044721] (mocap_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_imus_info_s.c.o\x1b[0m\n'}
+[22.055607] (mocap_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_rigid_body_s.c.o\x1b[0m\n'}
+[22.099974] (-) TimerEvent: {}
+[22.201828] (-) TimerEvent: {}
+[22.259447] (mocap_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_rigid_bodies_s.c.o\x1b[0m\n'}
+[22.303449] (-) TimerEvent: {}
+[22.404880] (-) TimerEvent: {}
+[22.455833] (mocap_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap_msgs/libmocap_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[22.506394] (-) TimerEvent: {}
+[22.548312] (mocap_msgs) StdoutLine: {'line': b'[ 90%] Built target mocap_msgs__rosidl_generator_py\n'}
+[22.582730] (mocap_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.593825] (mocap_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.607872] (-) TimerEvent: {}
+[22.708361] (-) TimerEvent: {}
+[22.798875] (mocap_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap_msgs/mocap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.808497] (-) TimerEvent: {}
+[22.825264] (mocap_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap_msgs/mocap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.875495] (mocap_msgs) StdoutLine: {'line': b'[ 96%] Built target mocap_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[22.905562] (mocap_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.908732] (mocap_msgs) StdoutLine: {'line': b'[ 98%] Built target mocap_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[22.908968] (-) TimerEvent: {}
+[23.010007] (-) TimerEvent: {}
+[23.106920] (mocap_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap_msgs/mocap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.111970] (-) TimerEvent: {}
+[23.183334] (mocap_msgs) StdoutLine: {'line': b'[100%] Built target mocap_msgs__rosidl_typesupport_c__pyext\n'}
+[23.200874] (mocap_msgs) CommandEnded: {'returncode': 0}
+[23.203276] (mocap_msgs) JobProgress: {'identifier': 'mocap_msgs', 'progress': 'install'}
+[23.212082] (-) TimerEvent: {}
+[23.216168] (mocap_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros_ws/build/mocap_msgs'], 'cwd': '/home/user/ros_ws/build/mocap_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'user'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1606'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1424,unix/ubuntu:/tmp/.ICE-unix/1424'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a4da6ebe_d560_4c87_a9d2_7b95797cb3a7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9LE202'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros_ws/build/mocap_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.227984] (mocap_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.228299] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/ament_index/resource_index/rosidl_interfaces/mocap_msgs\n'}
+[23.228581] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs\n'}
+[23.228874] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg\n'}
+[23.229096] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/markers.h\n'}
+[23.229253] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rigid_body.h\n'}
+[23.229429] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rigid_bodies.h\n'}
+[23.229647] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail\n'}
+[23.229900] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__type_support.h\n'}
+[23.230119] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__functions.h\n'}
+[23.230336] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__type_support.h\n'}
+[23.230547] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__functions.h\n'}
+[23.230755] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__struct.h\n'}
+[23.230906] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__type_support.h\n'}
+[23.231020] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__functions.h\n'}
+[23.231195] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__struct.h\n'}
+[23.231458] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__type_support.h\n'}
+[23.231659] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__functions.c\n'}
+[23.231945] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__type_support.h\n'}
+[23.232134] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__struct.h\n'}
+[23.232354] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__functions.h\n'}
+[23.232586] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__functions.c\n'}
+[23.232891] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__functions.h\n'}
+[23.233099] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__struct.h\n'}
+[23.233278] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__functions.c\n'}
+[23.233408] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__functions.c\n'}
+[23.233589] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__functions.c\n'}
+[23.233810] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__struct.h\n'}
+[23.233990] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/marker.h\n'}
+[23.234108] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/imus_info.h\n'}
+[23.234213] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.234319] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/library_path.sh\n'}
+[23.234458] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/library_path.dsv\n'}
+[23.234603] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_generator_c.so\n'}
+[23.236596] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_generator_c.so" to ""\n'}
+[23.236857] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs\n'}
+[23.236977] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg\n'}
+[23.237086] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.237206] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail\n'}
+[23.237338] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_c.h\n'}
+[23.237452] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_c.h\n'}
+[23.237557] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_c.h\n'}
+[23.237662] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_c.h\n'}
+[23.237823] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h\n'}
+[23.237934] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[23.238039] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.238144] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs\n'}
+[23.238249] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg\n'}
+[23.238416] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.238633] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail\n'}
+[23.239144] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__type_support.c\n'}
+[23.240512] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h\n'}
+[23.240866] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h\n'}
+[23.241091] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__type_support.c\n'}
+[23.241369] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h\n'}
+[23.241579] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h\n'}
+[23.241824] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__type_support.c\n'}
+[23.242041] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h\n'}
+[23.242266] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__type_support.c\n'}
+[23.242477] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__type_support.c\n'}
+[23.242685] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_introspection_c.so\n'}
+[23.242964] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.243194] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_c.so\n'}
+[23.243374] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_c.so" to ""\n'}
+[23.243553] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs\n'}
+[23.243813] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg\n'}
+[23.244018] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/markers.hpp\n'}
+[23.244212] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rigid_bodies.hpp\n'}
+[23.244414] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail\n'}
+[23.244615] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__struct.hpp\n'}
+[23.244857] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__builder.hpp\n'}
+[23.245132] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__builder.hpp\n'}
+[23.245277] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__type_support.hpp\n'}
+[23.245492] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__traits.hpp\n'}
+[23.245696] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__builder.hpp\n'}
+[23.245919] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__type_support.hpp\n'}
+[23.246143] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__traits.hpp\n'}
+[23.246255] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__type_support.hpp\n'}
+[23.246424] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__traits.hpp\n'}
+[23.246530] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__type_support.hpp\n'}
+[23.246633] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__struct.hpp\n'}
+[23.246814] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__type_support.hpp\n'}
+[23.246931] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__struct.hpp\n'}
+[23.247155] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__traits.hpp\n'}
+[23.247307] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__builder.hpp\n'}
+[23.247459] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__builder.hpp\n'}
+[23.247883] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__struct.hpp\n'}
+[23.248110] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__struct.hpp\n'}
+[23.248262] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__traits.hpp\n'}
+[23.248420] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/imus_info.hpp\n'}
+[23.248568] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rigid_body.hpp\n'}
+[23.248845] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.249046] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/marker.hpp\n'}
+[23.249202] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs\n'}
+[23.249340] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg\n'}
+[23.249477] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail\n'}
+[23.249615] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.249877] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.250067] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.250209] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/dds_fastrtps\n'}
+[23.250347] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.250498] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.250640] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.250894] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.251085] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[23.251229] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs\n'}
+[23.252790] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg\n'}
+[23.252985] (mocap_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail\n'}
+[23.253100] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__type_support.cpp\n'}
+[23.253249] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__type_support.cpp\n'}
+[23.253365] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.253469] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.253608] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__type_support.cpp\n'}
+[23.253758] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.253929] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__type_support.cpp\n'}
+[23.254113] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.254276] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.254440] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__type_support.cpp\n'}
+[23.255675] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[23.256471] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[23.257173] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_cpp.so\n'}
+[23.257468] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[23.257974] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/pythonpath.sh\n'}
+[23.258366] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/pythonpath.dsv\n'}
+[23.258940] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info\n'}
+[23.259438] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info/dependency_links.txt\n'}
+[23.259880] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info/SOURCES.txt\n'}
+[23.260258] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info/PKG-INFO\n'}
+[23.260434] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info/top_level.txt\n'}
+[23.260597] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs\n'}
+[23.260936] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/libmocap_msgs__rosidl_generator_py.so\n'}
+[23.261243] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[23.261544] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg\n'}
+[23.261875] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_marker.py\n'}
+[23.262137] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_marker_s.c\n'}
+[23.262408] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_body.py\n'}
+[23.262845] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_imus_info_s.c\n'}
+[23.263023] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_bodies_s.c\n'}
+[23.263174] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_bodies.py\n'}
+[23.263319] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_imus_info.py\n'}
+[23.263461] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/__init__.py\n'}
+[23.263612] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_markers.py\n'}
+[23.263883] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_body_s.c\n'}
+[23.264034] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_markers_s.c\n'}
+[23.264181] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[23.264329] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.264487] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.264682] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.264970] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/__init__.py\n'}
+[23.265134] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[23.312743] (-) TimerEvent: {}
+[23.336679] (mocap_msgs) StdoutLine: {'line': b"Listing '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs'...\n"}
+[23.337004] (mocap_msgs) StdoutLine: {'line': b"Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/__init__.py'...\n"}
+[23.337123] (mocap_msgs) StdoutLine: {'line': b"Listing '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg'...\n"}
+[23.337228] (mocap_msgs) StdoutLine: {'line': b"Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/__init__.py'...\n"}
+[23.337334] (mocap_msgs) StdoutLine: {'line': b"Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_imus_info.py'...\n"}
+[23.337478] (mocap_msgs) StdoutLine: {'line': b"Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_marker.py'...\n"}
+[23.337581] (mocap_msgs) StdoutLine: {'line': b"Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_markers.py'...\n"}
+[23.337681] (mocap_msgs) StdoutLine: {'line': b"Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_bodies.py'...\n"}
+[23.337780] (mocap_msgs) StdoutLine: {'line': b"Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_body.py'...\n"}
+[23.350482] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.362233] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[23.362536] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.363153] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[23.363502] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.364050] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[23.364300] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_generator_py.so\n'}
+[23.364772] (mocap_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_generator_py.so" to ""\n'}
+[23.365002] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/Marker.idl\n'}
+[23.365326] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/Markers.idl\n'}
+[23.365542] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/ImusInfo.idl\n'}
+[23.365850] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/RigidBody.idl\n'}
+[23.366576] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/RigidBodies.idl\n'}
+[23.366860] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/Marker.msg\n'}
+[23.367064] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/Markers.msg\n'}
+[23.367266] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/ImusInfo.msg\n'}
+[23.367460] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/RigidBody.msg\n'}
+[23.367630] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/RigidBodies.msg\n'}
+[23.367794] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/mocap_bridge_mapping_rule.yaml\n'}
+[23.367984] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/ament_index/resource_index/package_run_dependencies/mocap_msgs\n'}
+[23.368177] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/ament_index/resource_index/parent_prefix_path/mocap_msgs\n'}
+[23.368358] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/ament_prefix_path.sh\n'}
+[23.368544] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/ament_prefix_path.dsv\n'}
+[23.368806] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/path.sh\n'}
+[23.368965] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/path.dsv\n'}
+[23.369183] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/local_setup.bash\n'}
+[23.369378] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/local_setup.sh\n'}
+[23.369573] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/local_setup.zsh\n'}
+[23.369767] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/local_setup.dsv\n'}
+[23.369969] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/package.dsv\n'}
+[23.370330] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/ament_index/resource_index/packages/mocap_msgs\n'}
+[23.370547] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_cExport.cmake\n'}
+[23.370835] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.371038] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[23.371242] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[23.371501] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.371681] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.372029] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_cExport.cmake\n'}
+[23.372220] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.372392] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_cppExport.cmake\n'}
+[23.372570] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[23.372802] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[23.373035] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.373273] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.373446] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[23.373633] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.373888] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_pyExport.cmake\n'}
+[23.374085] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[23.374301] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[23.374483] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.374665] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.374943] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.375208] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.375429] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.375782] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.376127] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgsConfig.cmake\n'}
+[23.376353] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgsConfig-version.cmake\n'}
+[23.376468] (mocap_msgs) StdoutLine: {'line': b'-- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/package.xml\n'}
+[23.380934] (mocap_msgs) CommandEnded: {'returncode': 0}
+[23.408997] (mocap_msgs) JobEnded: {'identifier': 'mocap_msgs', 'rc': 0}
+[23.410321] (-) EventReactorShutdown: {}

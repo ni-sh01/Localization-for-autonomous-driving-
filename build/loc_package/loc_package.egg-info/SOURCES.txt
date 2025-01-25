@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/loc_package/loc_package.egg-info/PKG-INFO
+../../build/loc_package/loc_package.egg-info/SOURCES.txt
+../../build/loc_package/loc_package.egg-info/dependency_links.txt
+../../build/loc_package/loc_package.egg-info/entry_points.txt
+../../build/loc_package/loc_package.egg-info/requires.txt
+../../build/loc_package/loc_package.egg-info/top_level.txt
+../../build/loc_package/loc_package.egg-info/zip-safe
+loc_package/__init__.py
+loc_package/loc_node.py
+resource/loc_package
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

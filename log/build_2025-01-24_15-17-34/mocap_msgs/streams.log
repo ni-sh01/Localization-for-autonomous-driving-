@@ -1,0 +1,344 @@
+[0.581s] Invoking command in '/home/user/ros_ws/build/mocap_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros_ws/src/mocap_msgs -DCMAKE_INSTALL_PREFIX=/home/user/ros_ws/install/mocap_msgs
+[0.938s] -- The C compiler identification is GNU 11.4.0
+[1.214s] -- The CXX compiler identification is GNU 11.4.0
+[1.255s] -- Detecting C compiler ABI info
+[1.433s] -- Detecting C compiler ABI info - done
+[1.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.463s] -- Detecting C compile features
+[1.465s] -- Detecting C compile features - done
+[1.479s] -- Detecting CXX compiler ABI info
+[1.702s] -- Detecting CXX compiler ABI info - done
+[1.744s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.746s] -- Detecting CXX compile features
+[1.751s] -- Detecting CXX compile features - done
+[1.758s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.198s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.493s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.528s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.831s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.894s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[2.960s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.702s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.021s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.024s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.084s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.084s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.084s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.123s] -- Found PythonExtra: .so  
+[5.305s] -- Configuring done
+[5.393s] -- Generating done
+[5.419s] -- Build files have been written to: /home/user/ros_ws/build/mocap_msgs
+[5.432s] Invoked command in '/home/user/ros_ws/build/mocap_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros_ws/src/mocap_msgs -DCMAKE_INSTALL_PREFIX=/home/user/ros_ws/install/mocap_msgs
+[5.433s] Invoking command in '/home/user/ros_ws/build/mocap_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros_ws/build/mocap_msgs -- -j2 -l2
+[5.502s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.532s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.049s] [  3%] Built target mocap_msgs__cpp
+[7.102s] [  3%] Built target ament_cmake_python_copy_mocap_msgs
+[7.118s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.126s] [  6%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/marker__functions.c.o[0m
+[7.316s] [  7%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/markers__functions.c.o[0m
+[7.414s] [  9%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/imus_info__functions.c.o[0m
+[7.500s] [ 11%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/rigid_body__functions.c.o[0m
+[7.590s] [ 12%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap_msgs/msg/detail/rigid_bodies__functions.c.o[0m
+[7.676s] [ 14%] [32m[1mLinking C shared library libmocap_msgs__rosidl_generator_c.so[0m
+[7.750s] [ 14%] Built target mocap_msgs__rosidl_generator_c
+[7.766s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.019s] [ 17%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/marker__type_support.cpp.o[0m
+[8.661s] [ 19%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/markers__type_support.cpp.o[0m
+[9.022s] [ 20%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[9.206s] [ 22%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/imus_info__type_support.cpp.o[0m
+[9.789s] [ 23%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/rigid_body__type_support.cpp.o[0m
+[9.885s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/markers__type_support.cpp.o[0m
+[10.308s] [ 26%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msgs/msg/rigid_bodies__type_support.cpp.o[0m
+[10.835s] [ 28%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/imus_info__type_support.cpp.o[0m
+[10.913s] [ 30%] [32m[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_cpp.so[0m
+[11.003s] [ 30%] Built target mocap_msgs__rosidl_typesupport_cpp
+[11.021s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.745s] [ 33%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/rigid_body__type_support.cpp.o[0m
+[12.197s] [ 34%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/marker__type_support.cpp.o[0m
+[12.670s] [ 36%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msgs/msg/detail/dds_fastrtps/rigid_bodies__type_support.cpp.o[0m
+[13.012s] [ 38%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/markers__type_support.cpp.o[0m
+[13.603s] [ 39%] [32m[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.804s] [ 39%] Built target mocap_msgs__rosidl_typesupport_fastrtps_cpp
+[13.936s] [ 41%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/imus_info__type_support.cpp.o[0m
+[14.363s] running egg_info
+[14.365s] creating mocap_msgs.egg-info
+[14.366s] writing mocap_msgs.egg-info/PKG-INFO
+[14.367s] writing dependency_links to mocap_msgs.egg-info/dependency_links.txt
+[14.367s] writing top-level names to mocap_msgs.egg-info/top_level.txt
+[14.368s] writing manifest file 'mocap_msgs.egg-info/SOURCES.txt'
+[14.374s] reading manifest file 'mocap_msgs.egg-info/SOURCES.txt'
+[14.376s] writing manifest file 'mocap_msgs.egg-info/SOURCES.txt'
+[14.446s] [ 41%] Built target ament_cmake_python_build_mocap_msgs_egg
+[14.460s] [ 42%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/rigid_body__type_support.cpp.o[0m
+[14.796s] [ 44%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msgs/msg/detail/rigid_bodies__type_support.cpp.o[0m
+[15.384s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.820s] [ 47%] [32m[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[15.990s] [ 47%] Built target mocap_msgs__rosidl_typesupport_introspection_cpp
+[16.007s] [ 49%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.666s] [ 50%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[17.230s] [ 52%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/marker__type_support.c.o[0m
+[17.304s] [ 53%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/markers__type_support.c.o[0m
+[17.338s] [ 55%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/markers__type_support_c.cpp.o[0m
+[17.384s] [ 57%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/imus_info__type_support.c.o[0m
+[17.435s] [ 58%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/rigid_body__type_support.c.o[0m
+[17.515s] [ 60%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msgs/msg/detail/rigid_bodies__type_support.c.o[0m
+[17.589s] [ 61%] [32m[1mLinking C shared library libmocap_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.660s] [ 61%] Built target mocap_msgs__rosidl_typesupport_introspection_c
+[17.682s] [ 63%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.023s] [ 65%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/imus_info__type_support_c.cpp.o[0m
+[18.607s] [ 66%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/marker__type_support.cpp.o[0m
+[18.668s] [ 68%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/markers__type_support.cpp.o[0m
+[18.694s] [ 69%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/rigid_body__type_support_c.cpp.o[0m
+[18.729s] [ 71%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/imus_info__type_support.cpp.o[0m
+[18.785s] [ 73%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/rigid_body__type_support.cpp.o[0m
+[18.833s] [ 74%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msgs/msg/rigid_bodies__type_support.cpp.o[0m
+[18.886s] [ 76%] [32m[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_c.so[0m
+[18.978s] [ 76%] Built target mocap_msgs__rosidl_typesupport_c
+[18.992s] [ 77%] [32mBuilding CXX object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msgs/msg/detail/rigid_bodies__type_support_c.cpp.o[0m
+[19.629s] [ 79%] [32m[1mLinking CXX shared library libmocap_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[19.798s] [ 79%] Built target mocap_msgs__rosidl_typesupport_fastrtps_c
+[19.829s] [ 79%] Built target mocap_msgs
+[19.861s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.642s] [ 80%] Built target mocap_msgs__py
+[21.672s] [ 82%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_marker_s.c.o[0m
+[21.672s] [ 84%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_markers_s.c.o[0m
+[22.009s] [ 85%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_imus_info_s.c.o[0m
+[22.019s] [ 87%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_rigid_body_s.c.o[0m
+[22.223s] [ 88%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap_msgs/msg/_rigid_bodies_s.c.o[0m
+[22.420s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/mocap_msgs/libmocap_msgs__rosidl_generator_py.so[0m
+[22.512s] [ 90%] Built target mocap_msgs__rosidl_generator_py
+[22.547s] [ 92%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.558s] [ 93%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.763s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/mocap_msgs/mocap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.789s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mocap_msgs/mocap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[22.839s] [ 96%] Built target mocap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[22.869s] [ 98%] [32mBuilding C object CMakeFiles/mocap_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[22.872s] [ 98%] Built target mocap_msgs__rosidl_typesupport_introspection_c__pyext
+[23.071s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mocap_msgs/mocap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.147s] [100%] Built target mocap_msgs__rosidl_typesupport_c__pyext
+[23.165s] Invoked command in '/home/user/ros_ws/build/mocap_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros_ws/build/mocap_msgs -- -j2 -l2
+[23.180s] Invoking command in '/home/user/ros_ws/build/mocap_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros_ws/build/mocap_msgs
+[23.192s] -- Install configuration: ""
+[23.192s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/ament_index/resource_index/rosidl_interfaces/mocap_msgs
+[23.192s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs
+[23.193s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg
+[23.193s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/markers.h
+[23.193s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rigid_body.h
+[23.193s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rigid_bodies.h
+[23.193s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail
+[23.194s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__type_support.h
+[23.194s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__functions.h
+[23.194s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__type_support.h
+[23.194s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__functions.h
+[23.194s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__struct.h
+[23.195s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__type_support.h
+[23.195s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__functions.h
+[23.195s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__struct.h
+[23.195s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__type_support.h
+[23.195s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__functions.c
+[23.196s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__type_support.h
+[23.196s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__struct.h
+[23.196s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__functions.h
+[23.196s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__functions.c
+[23.197s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__functions.h
+[23.197s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__struct.h
+[23.197s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__functions.c
+[23.197s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__functions.c
+[23.197s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__functions.c
+[23.197s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__struct.h
+[23.198s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/marker.h
+[23.198s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/imus_info.h
+[23.198s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.198s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/library_path.sh
+[23.198s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/library_path.dsv
+[23.198s] -- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_generator_c.so
+[23.200s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_generator_c.so" to ""
+[23.201s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs
+[23.201s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg
+[23.201s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.201s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail
+[23.201s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_c.h
+[23.201s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_c.h
+[23.201s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_c.h
+[23.201s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_c.h
+[23.201s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[23.202s] -- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_fastrtps_c.so
+[23.202s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[23.202s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs
+[23.202s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg
+[23.202s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.202s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail
+[23.204s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__type_support.c
+[23.204s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h
+[23.205s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h
+[23.205s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__type_support.c
+[23.205s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h
+[23.205s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[23.206s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__type_support.c
+[23.206s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h
+[23.206s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__type_support.c
+[23.206s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__type_support.c
+[23.206s] -- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_introspection_c.so
+[23.207s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_introspection_c.so" to ""
+[23.207s] -- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_c.so
+[23.207s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_c.so" to ""
+[23.207s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs
+[23.208s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg
+[23.208s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/markers.hpp
+[23.208s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rigid_bodies.hpp
+[23.208s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail
+[23.208s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__struct.hpp
+[23.209s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__builder.hpp
+[23.209s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__builder.hpp
+[23.209s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__type_support.hpp
+[23.209s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__traits.hpp
+[23.209s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__builder.hpp
+[23.210s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__type_support.hpp
+[23.210s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__traits.hpp
+[23.210s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__type_support.hpp
+[23.210s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__traits.hpp
+[23.210s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__type_support.hpp
+[23.210s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__struct.hpp
+[23.210s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__type_support.hpp
+[23.211s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__struct.hpp
+[23.211s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__traits.hpp
+[23.211s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__builder.hpp
+[23.211s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__builder.hpp
+[23.212s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__struct.hpp
+[23.212s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__struct.hpp
+[23.212s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__traits.hpp
+[23.212s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/imus_info.hpp
+[23.212s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rigid_body.hpp
+[23.213s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.213s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/marker.hpp
+[23.213s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs
+[23.213s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg
+[23.213s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail
+[23.213s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[23.214s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_cpp.hpp
+[23.214s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_cpp.hpp
+[23.214s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/dds_fastrtps
+[23.214s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp
+[23.214s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp
+[23.214s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.215s] -- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_fastrtps_cpp.so
+[23.215s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.215s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs
+[23.216s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg
+[23.217s] -- Up-to-date: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail
+[23.217s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__type_support.cpp
+[23.217s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__type_support.cpp
+[23.217s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_cpp.hpp
+[23.217s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp
+[23.217s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_bodies__type_support.cpp
+[23.217s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_cpp.hpp
+[23.218s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__type_support.cpp
+[23.218s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_cpp.hpp
+[23.218s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[23.218s] -- Installing: /home/user/ros_ws/install/mocap_msgs/include/mocap_msgs/mocap_msgs/msg/detail/markers__type_support.cpp
+[23.220s] -- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_introspection_cpp.so
+[23.221s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[23.221s] -- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_cpp.so
+[23.221s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_typesupport_cpp.so" to ""
+[23.222s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/pythonpath.sh
+[23.222s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/pythonpath.dsv
+[23.223s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info
+[23.223s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info/dependency_links.txt
+[23.224s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info/SOURCES.txt
+[23.224s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info/PKG-INFO
+[23.224s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs-0.0.3-py3.10.egg-info/top_level.txt
+[23.224s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs
+[23.225s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/libmocap_msgs__rosidl_generator_py.so
+[23.225s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_c.c
+[23.225s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg
+[23.226s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_marker.py
+[23.226s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_marker_s.c
+[23.226s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_body.py
+[23.227s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_imus_info_s.c
+[23.227s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_bodies_s.c
+[23.227s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_bodies.py
+[23.227s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_imus_info.py
+[23.227s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/__init__.py
+[23.227s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_markers.py
+[23.228s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_body_s.c
+[23.228s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_markers_s.c
+[23.228s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[23.228s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.228s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.228s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.229s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/__init__.py
+[23.229s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/_mocap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.301s] Listing '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs'...
+[23.301s] Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/__init__.py'...
+[23.301s] Listing '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg'...
+[23.301s] Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/__init__.py'...
+[23.301s] Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_imus_info.py'...
+[23.301s] Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_marker.py'...
+[23.301s] Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_markers.py'...
+[23.301s] Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_bodies.py'...
+[23.302s] Compiling '/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/msg/_rigid_body.py'...
+[23.315s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[23.326s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.326s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[23.327s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.327s] -- Installing: /home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.328s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/local/lib/python3.10/dist-packages/mocap_msgs/mocap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.328s] -- Installing: /home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_generator_py.so
+[23.328s] -- Set runtime path of "/home/user/ros_ws/install/mocap_msgs/lib/libmocap_msgs__rosidl_generator_py.so" to ""
+[23.329s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/Marker.idl
+[23.329s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/Markers.idl
+[23.329s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/ImusInfo.idl
+[23.330s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/RigidBody.idl
+[23.330s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/RigidBodies.idl
+[23.331s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/Marker.msg
+[23.331s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/Markers.msg
+[23.331s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/ImusInfo.msg
+[23.331s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/RigidBody.msg
+[23.331s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/msg/RigidBodies.msg
+[23.332s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/mocap_bridge_mapping_rule.yaml
+[23.332s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/ament_index/resource_index/package_run_dependencies/mocap_msgs
+[23.332s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/ament_index/resource_index/parent_prefix_path/mocap_msgs
+[23.332s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/ament_prefix_path.sh
+[23.332s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/ament_prefix_path.dsv
+[23.332s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/path.sh
+[23.333s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/environment/path.dsv
+[23.333s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/local_setup.bash
+[23.333s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/local_setup.sh
+[23.333s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/local_setup.zsh
+[23.333s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/local_setup.dsv
+[23.334s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/package.dsv
+[23.334s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/ament_index/resource_index/packages/mocap_msgs
+[23.334s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_cExport.cmake
+[23.334s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_cExport-noconfig.cmake
+[23.335s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[23.335s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[23.335s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_introspection_cExport.cmake
+[23.335s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.336s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_cExport.cmake
+[23.336s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[23.336s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_cppExport.cmake
+[23.336s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.336s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[23.337s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[23.337s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.337s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_cppExport.cmake
+[23.337s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[23.338s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_pyExport.cmake
+[23.338s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/export_mocap_msgs__rosidl_generator_pyExport-noconfig.cmake
+[23.338s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/rosidl_cmake-extras.cmake
+[23.338s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.338s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.339s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[23.339s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[23.339s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.339s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.340s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgsConfig.cmake
+[23.340s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/cmake/mocap_msgsConfig-version.cmake
+[23.340s] -- Installing: /home/user/ros_ws/install/mocap_msgs/share/mocap_msgs/package.xml
+[23.345s] Invoked command in '/home/user/ros_ws/build/mocap_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros_ws/build/mocap_msgs
