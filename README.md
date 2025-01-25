@@ -17,7 +17,7 @@ The Localization Component determines the precise position and orientation of th
 
 
 ## Nodes
-### Node: `path and trajectory Planner`
+### Node: `Localization`
 #### Topics
 
 | **Topic Name**            | **Input/Output**    | **Message Type**             | **Description** |
