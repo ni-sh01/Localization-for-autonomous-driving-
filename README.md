@@ -22,8 +22,8 @@ The Localization Component determines the precise position and orientation of th
 
 | **Topic Name**            | **Input/Output**    | **Message Type**             | **Description** |
 |---------------------------|---------------------|------------------------------|-----------------|
-| `/pose_modelcars`         | **Input** from OptiTrack (Subscribe) | `geometry_msgs/PoseStamped`  |Publishes the position and orientation data of multiple rigid bodies (e.g., cars). |
-| `/team_elite_ego_pose`     | **Output** to Path and Trajectory planner (Publish)  | `geometry_msgs/msg/pose`     |Publishes the position and orientation of a team elite rigid body |
+| `/pose_modelcars`         | **Input** (Subscribe) | `geometry_msgs/PoseStamped`  |Subscribe the position and orientation data of multiple rigid bodies from OptiTrack (e.g., cars). |
+| `/team_elite_ego_pose`     | **Output** (Publish)  | `geometry_msgs/msg/pose`     |Publishes the position and orientation of a team elite rigid body  to Path and Trajectory planner |
 
 ## RQT_graph
 
