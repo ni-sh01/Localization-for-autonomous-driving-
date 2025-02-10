@@ -9,6 +9,8 @@ The Localization Component determines the precise position and orientation of th
 
 The block diagram below illustrates the connected components involved in the Localization Component:
 
+<img src="loccomp.jpg" alt="block_diagram" width="750">
+
 ## Table of Contents
 - [Nodes](#nodes)
 - [RQT_graph](#rqt_graph)
@@ -31,6 +33,7 @@ The block diagram below illustrates the connected components involved in the Loc
 
 ## RQT_graph
 
+<img src="rosgraphloc.png" alt="block_diagram" width="750">
 
 ## Installation
 1. Clone the repository:
