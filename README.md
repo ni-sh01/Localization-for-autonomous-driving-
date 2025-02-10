@@ -26,14 +26,16 @@ The block diagram below illustrates the connected components involved in the Loc
 
 | **Topic Name**            | **Input/Output**    | **Message Type**             | **Description** |
 |---------------------------|---------------------|------------------------------|-----------------|
-| `/pose_modelcars`         | **Input** (Subscribe) | `geometry_msgs/PoseStamped`  |Subscribe the position and orientation data of multiple rigid bodies from OptiTrack (e.g., cars). |
-| `geometry_msgs/ego_pose`     | **Output** (Publish)  | `geometry_msgs/msg/Pose`     |Publishes the position and orientation of a team elite rigid body  to Path and Trajectory planner, longitudinal and lateral controller, communication components|
-| `/ego_twist`     | **Output** (Publish)  | `geometry_msgs/msg/Twist`     |Publishes the angular and linear velocity of a team elite rigid body to Path and Trajectory planner, longitudinal and lateral controller, communication components|
+| `/pose_modelcars`         | **Input**  | `geometry_msgs/PoseStamped`  |Subscribe the position and orientation data of multiple rigid bodies from OptiTrack (e.g., cars). |
+| `geometry_msgs/ego_pose`     | **Output**   | `geometry_msgs/msg/Pose`     |Publishes the position and orientation of a team elite rigid body  to Path and Trajectory planner, longitudinal and lateral controller, communication components|
+| `/ego_twist`     | **Output**  | `geometry_msgs/msg/Twist`     |Publishes the angular and linear velocity of a team elite rigid body to Path and Trajectory planner, longitudinal and lateral controller, communication components|
 
 
 ## RQT_graph
 
 <img src="rosgraphloc.png" alt="block_diagram" width="750">
+
+This ROS node processes motion capture (mocap) data recorded in a ROS bag file. It subscribes to the /pose_modelcars topic from the bag file, which provides pose data for model cars from ModelCity. The node republishes this data as ego_pose. Additionally, the node generates random linear and angular velocity values using the random module and publishes these velocities as ego_twist.
 
 ## Installation
 1. Clone the repository:
