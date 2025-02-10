@@ -27,8 +27,8 @@ The block diagram below illustrates the connected components involved in the Loc
 | **Topic Name**            | **Input/Output**    | **Message Type**             | **Description** |
 |---------------------------|---------------------|------------------------------|-----------------|
 | `/pose_modelcars`         | **Input** (Subscribe) | `geometry_msgs/PoseStamped`  |Subscribe the position and orientation data of multiple rigid bodies from OptiTrack (e.g., cars). |
-| `geometry_msgs/ego_pose`     | **Output** (Publish)  | `geometry_msgs/msg/Pose`     |Publishes the position and orientation of a team elite rigid body  to Path andTrajectory planner, longitudinal and lateral controller, communication|
-| `/ego_twist`     | **Output** (Publish)  | `geometry_msgs/msg/Twist`     |Publishes the angular and linear velocity of a team elite rigid body to Path, Trajectory planner, longitudinal and lateral controller, communication|
+| `geometry_msgs/ego_pose`     | **Output** (Publish)  | `geometry_msgs/msg/Pose`     |Publishes the position and orientation of a team elite rigid body  to Path and Trajectory planner, longitudinal and lateral controller, communication components|
+| `/ego_twist`     | **Output** (Publish)  | `geometry_msgs/msg/Twist`     |Publishes the angular and linear velocity of a team elite rigid body to Path and Trajectory planner, longitudinal and lateral controller, communication components|
 
 
 ## RQT_graph
