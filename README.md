@@ -41,6 +41,7 @@ This ROS node processes motion capture (mocap) data recorded in a ROS bag file. 
 1. Clone the repository:
 ```bash
  git clone https://git.hs-coburg.de/The_ELITE/TheElite_Localization.git
+ git clone https://git.hs-coburg.de/pau5849s/mocap_msgs.git
 ```
 2. Build the package:
 ```bash
