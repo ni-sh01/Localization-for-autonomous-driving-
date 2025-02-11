@@ -60,14 +60,6 @@ To launch all of the nodes in lateral control package, run the following command
 ros2 run vehicle_localization loc_package 
 ```
 
-## Testing
-### Unit Tests
-To run the unit tests for this package, use the following command:
-
-```bash
-colcon test --packages-select vehicle_localization
-```
-
 ## License
 
 This project is licensed under the **Apache 2.0 License** - see the [LICENSE](LICENSE) file for details.
