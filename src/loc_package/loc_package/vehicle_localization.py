@@ -55,7 +55,7 @@ class EL_Localization(Node):
 
     def pose_callback(self, msg):
         for rb in msg.rigidbodies:
-            if rb.rigid_body_name == '8':  # Change to your rigid body ID
+            if rb.rigid_body_name == '8':  
                 x = rb.pose.position.x
                 y = rb.pose.position.y
                 q = [rb.pose.orientation.w, rb.pose.orientation.x,
