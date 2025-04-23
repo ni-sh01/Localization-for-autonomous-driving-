@@ -37,6 +37,14 @@ The block diagram below illustrates the connected components involved in the Loc
 
 This ROS node processes motion capture (mocap) data recorded in a ROS bag file. It subscribes to the /pose_modelcars topic from the bag file, which provides pose data for model cars from ModelCity. The node republishes this data as ego_pose, The node uses kalman filter to estimate linear and angular velocity values and publishes as ego_twist.
 
+## User Story
+C4.1 As a localization component, I want to use position and orientation measurements from the OptiTrack sensor as inputs to a Kalman Filter, so that I can estimate the ego vehicle’s velocity and turn rate for accurate motion tracking
+## Acceptance Criteria
+AC1: The localization component must subscribe to OptiTrack’s /pose_modelcars topic to receive position and orientation data of the ego vehicle.<br>
+AC2: A Linear Kalman Filter must estimate velocity and turn rate from position and orientation.<br>
+AC3: The estimated velocity and turn rate must be published to /ego_twist.<br>
+AC4: The state variables must be logged to a CSV file, must generate time-series plots using matplotlib.
+
 ## Installation
 1. Clone the repository:
 ```bash
