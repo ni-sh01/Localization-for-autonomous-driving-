@@ -10,7 +10,7 @@ The Localization Component determines the precise position and orientation of th
 The block diagram below illustrates the connected components involved in the Localization Component:
 
 
-<img src="updated1.png" alt="block_diagram" width="750">
+<img src="updated1.PNG" alt="block_diagram" width="750">
 
 
 ## Table of Contents
